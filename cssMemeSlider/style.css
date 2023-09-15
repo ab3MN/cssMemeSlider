@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  color: var(--text-color);
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
