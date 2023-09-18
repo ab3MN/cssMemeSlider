@@ -13,10 +13,10 @@
   width: 400%;
   height: 100%;
   display: flex;
+  transition: all 0.5s;
 }
 .slider__item {
   width: 25%;
-  transition: all 0.5s;
 }
 .slider__image {
   height: 72rem;
@@ -78,14 +78,14 @@
 #r1:checked ~ .slider__wrapper .slider .s1 {
   margin-left: 0;
 }
-#r2:checked ~ .slider__wrapper .slider .s2 {
-  margin-left: -25%;
+#r2:checked ~ .slider__wrapper .slider {
+  margin-left: -100%;
 }
-#r3:checked ~ .slider__wrapper .slider .s3 {
-  margin-left: -50%;
+#r3:checked ~ .slider__wrapper .slider {
+  margin-left: -200%;
 }
-#r4:checked ~ .slider__wrapper .slider .s4 {
-  margin-left: -75%;
+#r4:checked ~ .slider__wrapper .slider {
+  margin-left: -300%;
 }
 #r1:checked
   ~ .controls__wrapper
