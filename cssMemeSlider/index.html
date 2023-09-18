@@ -5,52 +5,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./base.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <div class="container">
         <div class="slider__wrapper">
-            <ul class="slider">
-                <input id="s1" type="radio" class="slider__input" checked />
-                <input id="s2" type="radio" class="slider__input" />
-                <input id="s3" type="radio" class="slider__input" />
-                <input id="s4" type="radio" class="slider__input" />
-                <li class="slider__item">
-                    <img src="./images/1.jpg" alt="" class="slider__image" />
-                </li>
-                <li class="slider__item">
-                    <img src="./images/2.jpg" alt="" class="slider__image" />
-                </li>
-                <li class="slider__item">
-                    <img src="./images/3.jpg" alt="" class="slider__image" />
-                </li>
-                <li class="slider__item">
-                    <img src="./images/4.jpg" alt="" class="slider__image" />
-                </li>
-            </ul>
-        </div>
-
-        <div class="slider__description--wrapper">
-            <div class="slider__descriptions">
-                <p class="slider__description">I Know Type Script</p>
-                <p class="slider__description">I Know Type Script</p>
-                <p class="slider__description">I Know Type Script</p>
-                <p class="slider__description">I Know Type Script</p>
+            <div class="slider">
+                <div class="slider__item s1 ">
+                    <img src="./images/1.jpg" alt="" class="slider__image " />
+                </div>
+                <div class="slider__item s2 ">
+                    <img src="./images/2.jpg" alt="" class="slider__image " />
+                </div>
+                <div class="slider__item s3">
+                    <img src="./images/3.jpg" alt="" class="slider__image " />
+                </div>
+                <div class="slider__item s4">
+                    <img src="./images/4.jpg" alt="" class="slider__image " />
+                </div>
             </div>
         </div>
-        <div class="slider__buttons--wrapper">
-            <div class="slider__buttons">
-                <label for="s1" class="slider__button"></label>
-                <label for="s2" class="slider__button"></label>
-                <label for="s3" class="slider__button"></label>
-                <label for="s4" class="slider__button"></label>
+
+        <div class="controls__wrapper">
+            <div class="slider__description--wrapper">
+                <div class="slider__descriptions">
+                    <p class="slider__description">I Know Type Script</p>
+                    <p class="slider__description">Feelings of Power</p>
+                    <p class="slider__description">Git Push</p>
+                    <p class="slider__description">Let me check when's the deadline</p>
+                </div>
+            </div>
+
+            <div class="slider__buttons--wrapper">
+                <div class="slider__buttons">
+                    <input id="r1" name="slider__control" type="radio" class="slider__input" checked />
+                    <label for="r1" class="slider__button"></label>
+
+                    <input id="r2" name="slider__control" type="radio" class="slider__input" />
+                    <label for="r2" class="slider__button"></label>
+
+                    <input id="r3" name="slider__control" type="radio" class="slider__input" />
+                    <label for="r3" class="slider__button"></label>
+
+                    <input id="r4" name="slider__control" type="radio" class="slider__input" />
+                    <label for="r4" class="slider__button"></label>
+                </div>
             </div>
         </div>
     </div>
-
-
-
 </body>
 
 </html>
