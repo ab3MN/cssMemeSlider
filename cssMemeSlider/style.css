@@ -93,7 +93,8 @@
   }
   .slider__buttons--wrapper {
     order: -1;
-    margin-left: auto;
+    margin: auto;
+    padding-bottom: 20px;
   }
 }
 
