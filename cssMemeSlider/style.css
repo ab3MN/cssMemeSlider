@@ -164,5 +164,8 @@
     margin: auto;
     padding-bottom: 2rem;
   }
+  .slider__image {
+    height: 39rem;
+  }
 }
 
