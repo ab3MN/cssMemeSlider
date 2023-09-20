@@ -28,6 +28,7 @@
 }
 .slider__button {
   transition: all 0.5s;
+  cursor: pointer;
 }
 .slider__button span {
   display: inline-block;
@@ -37,7 +38,6 @@
   border: 0.2rem solid rgb(106, 106, 238);
   background: rgb(106, 106, 238);
   margin: 0.5rem;
-  cursor: pointer;
   opacity: 0.7;
   transition: all 0.5s;
 }
